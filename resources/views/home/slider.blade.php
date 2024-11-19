@@ -17,7 +17,7 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                    Discover amazing deals on our high-quality products. Don't miss out on this limited-time offer to save big on your favorite items. Shop now and enjoy the best prices!
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
@@ -42,7 +42,7 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                 Discover amazing deals on our high-quality products. Don't miss out on this limited-time offer to save big on your favorite items. Shop now and enjoy the best prices!
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">
@@ -67,7 +67,7 @@
                                     On Everything
                                  </h1>
                                  <p>
-                                    Explicabo esse amet tempora quibusdam laudantium, laborum eaque magnam fugiat hic? Esse dicta aliquid error repudiandae earum suscipit fugiat molestias, veniam, vel architecto veritatis delectus repellat modi impedit sequi.
+                                 Discover amazing deals on our high-quality products. Don't miss out on this limited-time offer to save big on your favorite items. Shop now and enjoy the best prices!
                                  </p>
                                  <div class="btn-box">
                                     <a href="" class="btn1">

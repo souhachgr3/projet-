@@ -18,9 +18,9 @@
            width:150px; 
            height:120px
         }
-        .th_color{
+        /*.th_color{
             background:skyblue;
-        }
+        }*/
         .th_deg{
             padding:30px;
         }

@@ -14,7 +14,7 @@
         .th_deg{
             font-size:30px;
             padding:5px;
-            background:skyblue;
+            /*background:skyblue;*/
         }
         .img_deg{
             height:200px;

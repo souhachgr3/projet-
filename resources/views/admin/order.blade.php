@@ -11,7 +11,9 @@
             font-weight: bold;
             padding-bottom: 40px;
         }
-
+        .input_color{
+            color: black;
+        }
         .table_deg {
             border: 2px solid white;
             width: 100%;
@@ -19,10 +21,13 @@
             padding-top: 50px;
             text-align: center;
         }
-
-        .th_deg {
-            background-color: skyblue;
+        .div_center{
+            text-align:center;
+            padding-top: 40px;
         }
+        /*.th_deg {
+            background-color: skyblue;
+        }*/
 
         .img_size {
             width: 200px;
@@ -41,12 +46,14 @@
             @include('admin.header')
             <div class="main-panel">
                 <div class="content-wrapper">
-                    <h1 class="title_deg">All orders </h1>
-                    <form action="{{ route('order.search.ajax') }}" method="GET" >
-    @csrf
-    <input style="width:500px;" type="text" id="searchInput" name="search" placeholder="Search for something">
-    <input type="submit" value="Search">
-    </form>
+                <div class="div_center"> 
+                <h2 class="title_deg">All orders</h2>
+                <form action="{{url('/product_search')}}" method="GET">
+                    @csrf
+                    <input type="text" class="input_color" name="category" placeholder="search here ">
+                    <input type="submit" name="submit" class="btn btn-primary" value="Search">
+                </form>
+            </div>
                         <div id="searchResults"></div>
                     </div>
                     <table class="table_deg">

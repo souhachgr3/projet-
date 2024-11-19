@@ -91,15 +91,11 @@ class AdminController extends Controller
         return view('admin.order', compact('order'));
  
     }
-    public function searchAjax(Request $request)
+    public function product_search(Request $request)
     {
-        $searchText = $request->input('search');
-        $orders = Order::where('product_title', 'LIKE', "%$searchText%")
-            ->orWhere('price', '>=', 'LIKE', "% $searchText%")
-            ->orWhere('quantity', '>=', 'LIKE', "%$searchText%")
-            ->get();
-    
-        return response()->json(['orders' => $orders]);
+        $search_text=$request->search;
+        $product=product::where('product_title','LIKE',"%$search_text%")->orWhere('price','LIKE',"$search_text")->orWhere('quantity', '>=', 'LIKE', "%$search_text%")->get();;
+        return view('admin.order',compact('product'));
     }
     
     public function delivered($id){

@@ -13,7 +13,7 @@
         }
         .th_deg{
             padding:10px;
-            background-color:skyblue;
+            /*background-color:skyblue;*/
             font-size:20px;
             font-weight:bold;
         }
@@ -40,7 +40,7 @@
    </head>
    <body>
          <!-- header section strats -->
-         @include('home.header');
+         @include('home.header')
          <!-- end header section -->
          <div class="center">
             <table>
